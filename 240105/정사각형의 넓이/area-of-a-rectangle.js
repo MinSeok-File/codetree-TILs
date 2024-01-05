@@ -1,7 +1,6 @@
 const fs = require("fs");
-let n = Number(fs.readFileSync(0).toString().trim());
+let input = fs.readFileSync(0).toString().trim();
+let n = Number(input);
 
-console.log(n**2)
-if (n < 5) {
-    console.log('tiny');
-}
+console.log(n**2);
+if (n < 5) console.log('tiny');
