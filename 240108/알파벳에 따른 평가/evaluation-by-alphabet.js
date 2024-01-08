@@ -2,7 +2,7 @@ const fs = require("fs");
 let a = fs.readFileSync(0).toString().trim();
 
 if (a === 'S'){
-    console.log('');
+    console.log('Superior');
 }
 else if (a === 'A'){
     console.log('Excellent');
