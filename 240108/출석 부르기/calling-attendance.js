@@ -1,6 +1,5 @@
 const fs = require("fs");
-let input = fs.readFileSync(0).toString().trim();
-let a = Number(input);
+let a = Number(fs.readFileSync(0).toString().trim());
 
 if (a == 1){
     console.log('John');
