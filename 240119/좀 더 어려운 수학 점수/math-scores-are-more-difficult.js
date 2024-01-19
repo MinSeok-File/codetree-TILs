@@ -8,7 +8,5 @@ let engA = Number(arrA[1]);
 let mathB = Number(arrB[0]);
 let engB = Number(arrB[1]);
 
-if (mathA > mathB) console.log('A');
-else if (mathA < mathB) console.log('B');
-else if (engA > engB) console.log('A');
+if (mathA > mathB || (mathA === mathB && engA > engB)) console.log('A');
 else console.log('B');
