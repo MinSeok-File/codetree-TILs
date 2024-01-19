@@ -1,0 +1,14 @@
+const fs = require("fs");
+let input = fs.readFileSync(0).toString().trim().split('\n');
+let arrA = input[0];
+let arrB = input[1];
+
+let mathA = Number(arrA[0]);
+let engA = Number(arrA[1]);
+let mathB = Number(arrB[0]);
+let engB = Number(arrB[1]);
+
+if (mathA > mathB) console.log('A');
+else if (mathA < mathB) console.log('B');
+else if (engA > engB) console.log('A');
+else console.log('B');
