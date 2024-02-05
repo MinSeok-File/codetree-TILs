@@ -10,7 +10,7 @@ for (let i = 1; i <= n; i++){
         result += 0 + ' ';
     }
     else if (parseInt(i / 10) === 3 || parseInt(i / 10) === 6 || parseInt(i / 10) === 9){
-        res += 0 + ' ';
+        result += 0 + ' ';
     }
     else result += i + ' '
 }
