@@ -5,11 +5,8 @@ let b = Number(input[1]);
 let sumVal = 0;
 
 if (a > b)[a, b] = [b, a];
-else{
-    for (let i = a; i <= b; i++){
-    if (i % 5 === 0){
-        sumVal += i;
-    }
-}
-}
+for (let i = a; i <= b; i++){
+if (i % 5 === 0){
+    sumVal += i;
+}}
 console.log(sumVal);
