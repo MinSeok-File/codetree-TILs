@@ -5,7 +5,7 @@ let b = Number(input[1]);
 let ans = 0;
 
 for (let i = a; i <= b; i++){
-    if (1920 % i === 0 || 2880 % i === 0){
+    if (1920 % i === 0 && 2880 % i === 0){
         ans = 1
     }
 }
